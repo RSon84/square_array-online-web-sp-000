@@ -6,5 +6,5 @@
 
 
 def square_array(array)
-  array.each{|a| a*a}
+  array.collect {|a| a*a}
 end
